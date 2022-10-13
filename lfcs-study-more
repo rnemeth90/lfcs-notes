@@ -1,0 +1,15 @@
+cron / anacron
+modifying bash prompt
+nice
+autofs
+egrep / regex
+sed
+nsswitch.conf
+repo files
+rsync
+
+
+
+
+_netdev
+sudo grub2-install /dev/vda > grub.txt 2>&1
