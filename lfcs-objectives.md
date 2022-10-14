@@ -16,7 +16,7 @@
 - [x] Boot, reboot, and shut down a system safely
 - [x] Boot or change system into different operating modes
 - [x] Install, configure and troubleshoot bootloaders
-- [ ] Diagnose and manage processes
+- [x] Diagnose and manage processes
 - [x] Locate and analyze system log files
 - [ ] Schedule tasks to run at a set date and time
 - [x] Verify completion of scheduled jobs
