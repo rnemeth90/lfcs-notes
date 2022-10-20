@@ -48,7 +48,7 @@
 - [x] Synchronize time using other network peers
 
 # Service Configuration20%
-- [ ] Configure a caching DNS server
+- [x] Configure a caching DNS server
 - [ ] Maintain a DNS zone
 - [x] Configure email aliases
 - [x] Configure SSH servers and clients
