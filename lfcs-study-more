@@ -1,14 +1,12 @@
-cron / anacron
 modifying bash prompt
-nice
+encrypted storage
 autofs
 egrep / regex
-sed
-nsswitch.conf
-repo files
 rsync
-
-
+PAM
+Database Servers
+Virtual Machines
+Containers
 
 
 _netdev
