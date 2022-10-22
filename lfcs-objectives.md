@@ -51,15 +51,15 @@
 - [x] Configure a caching DNS server
 - [x] Maintain a DNS zone
 - [x] Configure email aliases
-- [ ] Configure an IMAP and IMAPS service
+- [x] Restrict access to a web page
 - [x] Configure SSH servers and clients
 - [x] Restrict access to the HTTP proxy server
+- [x] Configure an IMAP and IMAPS service
+- [x] Query and modify the behavior of system services at various operating modes
 - [x] Configure an HTTP server
-- [x] Configure HTTP server log files
-- [x] Restrict access to a web page
 - [ ] Configure a database server
-- [ ] Manage and configure containers
 - [ ] Manage and configure Virtual Machines
+- [ ] Manage and configure containers
 - [x] Query and modify the behavior of system services at various operating modes
 
 # Storage Management 13%
@@ -68,8 +68,8 @@
 - [ ] Create and configure encrypted storage
 - [x] Configure systems to mount file systems at or during boot
 - [x] Configure and manage swap space
-- [ ] Create and manage RAID devices
+- [x] Create and manage RAID devices
 - [ ] Configure systems to mount file systems on demand
 - [x] Create, manage and diagnose advanced file system permissions
-- [ ] Setup user and group disk quotas for filesystems
+- [x] Setup user and group disk quotas for filesystems
 - [x] Create and configure file systems
