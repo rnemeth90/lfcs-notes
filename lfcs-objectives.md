@@ -51,16 +51,16 @@
 - [x] Configure a caching DNS server
 - [x] Maintain a DNS zone
 - [x] Configure email aliases
+- [x] Restrict access to a web page
 - [x] Configure SSH servers and clients
 - [x] Restrict access to the HTTP proxy server
 - [x] Configure an IMAP and IMAPS service
 - [x] Query and modify the behavior of system services at various operating modes
-- [ ] Configure an HTTP server
-- [ ] Configure HTTP server log files
+- [x] Configure an HTTP server
 - [ ] Configure a database server
-- [ ] Restrict access to a web page
-- [x] Manage and configure containers
 - [ ] Manage and configure Virtual Machines
+- [ ] Manage and configure containers
+- [x] Query and modify the behavior of system services at various operating modes
 
 # Storage Management 13%
 - [x] List, create, delete, and modify physical storage partitions

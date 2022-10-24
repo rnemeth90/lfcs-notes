@@ -1,15 +1,20 @@
-cron / anacron
-modifying bash prompt
+
 autofs
 egrep / regex
 sed
 quotas
-nsswitch.conf
-repo files
 rsync
+PAM
+Virtual Machines
+Containers
 
 
-
-
+- /etc/fstab network share device option:
 _netdev
+
+- redirecting stdin/stdout
 sudo grub2-install /dev/vda > grub.txt 2>&1
+
+- Disk Encryption:
+sudo cryptsetup --verify-passphrase open --type plain /dev/sde1 myEncryptedDisk
+sudo cryptsetup luksFormat /dev/sdd
