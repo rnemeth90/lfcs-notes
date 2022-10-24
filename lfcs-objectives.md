@@ -18,7 +18,7 @@
 - [x] Install, configure and troubleshoot bootloaders
 - [x] Diagnose and manage processes
 - [x] Locate and analyze system log files
-- [ ] Schedule tasks to run at a set date and time
+- [x] Schedule tasks to run at a set date and time
 - [x] Verify completion of scheduled jobs
 - [x] Update software to provide required functionality and security
 - [x] Verify the integrity and availability of resources
@@ -57,7 +57,7 @@
 - [x] Configure an IMAP and IMAPS service
 - [x] Query and modify the behavior of system services at various operating modes
 - [x] Configure an HTTP server
-- [ ] Configure a database server
+- [x] Configure a database server
 - [ ] Manage and configure Virtual Machines
 - [ ] Manage and configure containers
 - [x] Query and modify the behavior of system services at various operating modes
@@ -65,7 +65,7 @@
 # Storage Management 13%
 - [x] List, create, delete, and modify physical storage partitions
 - [x] Manage and configure LVM storage
-- [ ] Create and configure encrypted storage
+- [x] Create and configure encrypted storage
 - [x] Configure systems to mount file systems at or during boot
 - [x] Configure and manage swap space
 - [x] Create and manage RAID devices
