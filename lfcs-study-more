@@ -3,6 +3,7 @@ modifying bash prompt
 autofs
 egrep / regex
 sed
+quotas
 nsswitch.conf
 repo files
 rsync
