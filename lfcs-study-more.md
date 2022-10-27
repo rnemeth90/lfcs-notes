@@ -1,6 +1,6 @@
 - [x] PAM
 - [x] sed
-- [ ] autofs
+- [x] autofs
 - [x] egrep / regex
 - [x] disk quotas
 - [x] rsync
@@ -62,3 +62,8 @@
     - `egrep -r enabled?|disabled? /etc`
   - Match any lower case letter (cat or cut)
     - `egrep -r c[a,u]t /etc/`
+
+
+- find
+  - `sudo find ./collection/ -mmin -60 -type f -exec cp --target-directory=/opt/oldfiles/ {} +\;`
+  - `sudo find /home/bob/collection/ -type f -user adm -exec cp {} /opt/admfiles/  \;`
