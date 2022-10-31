@@ -69,6 +69,23 @@
   - `sudo find ./collection/ -mmin -60 -type f -exec cp --target-directory=/opt/oldfiles/ {} +\;`
   - `sudo find /home/bob/collection/ -type f -user adm -exec cp {} /opt/admfiles/  \;`
 
+       -perm mode
+              File's permission bits are exactly mode (octal or symbolic).  Since an exact match is required, if you want to use this form for symbolic modes, you may have to specify a
+              rather complex mode string.  For example `-perm g=w' will only match files which have mode 0020 (that is, ones for which group write permission  is  the  only  permission
+              set).   It  is more likely that you will want to use the `/' or `-' forms, for example `-perm -g=w', which matches any file with group write permission.  See the EXAMPLES
+              section for some illustrative examples.
+
+       -perm -mode
+              All of the permission bits mode are set for the file.  Symbolic modes are accepted in this form, and this is usually the way in which you would want  to  use  them.   You
+              must specify `u', `g' or `o' if you use a symbolic mode.  See the EXAMPLES section for some illustrative examples.
+
+       -perm /mode
+              Any  of  the  permission bits mode are set for the file.  Symbolic modes are accepted in this form.  You must specify `u', `g' or `o' if you use a symbolic mode.  See the
+              EXAMPLES section for some illustrative examples.  If no permission bits in mode are set, this test matches any file (the idea here is to be consistent with the  behaviour
+              of -perm -000).
+
+
+
 - virsh
   - `sudo dnf install libvirt qemu-kvm -y`
   - `sudo vi testmachine.xml`
