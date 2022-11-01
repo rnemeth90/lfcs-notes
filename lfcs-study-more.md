@@ -151,4 +151,25 @@
     - `sudo vi /etc/sysctl.d/10-swappiness.conf`
 
 
-- `sudo nmcli device reapply`
+- Routes added via the `ip` command are temporary. To make them permenant
+  - `sudo nmcli connection modify eth1 +ipv4.routes "192.168.0.0/24 172.28.128.100"`
+  - `sudo nmcli device reapply eth1`
+
+
+- Install, Configure, and Troubleshoot BootLoaders
+  - To regenerate grub2 config:
+    - Boot into recovery media, then:
+      - `chroot /mnt/sysroot`
+      - To regenerate grub config for BIOS system
+        - `grub2-mkconfig -o /boot/grub2/grub.cfg`
+      - To regenerate grub config for EFI system:
+        - `grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg`
+  - To reinstall the boot loader:
+    - BIOS systems:
+      -  Use `lsblk` to look at block devices. Try to identify the boot device
+      -  Use `grub2-install /dev/sda` to install grub to the boot device
+   -  EFI Systems:
+      -  Use `dnf reinstall grub2-efi grub2-efi-modules shim` to reinstall grub to the boot device
+
+
+- Password aging default policies are stored in `/etc/login.defs`

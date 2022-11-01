@@ -4,7 +4,7 @@
 - [x] Evaluate and compare the basic file system features and options
 - [x] Compare and manipulate file content
 - [x] Use input-output redirection (e.g. >, >>, |, 2>)
-- [ ] Analyze text using basic regular expressions
+- [x] Analyze text using basic regular expressions
 - [x] Archive, backup, compress, unpack, and uncompress files
 - [x] Create, delete, copy, and move files and directories
 - [x] Create and manage hard and soft links
@@ -37,7 +37,7 @@
 - [x] Manage template user environment
 - [x] Configure user resource limits
 - [x] Manage user privileges
-- [ ] Configure PAM
+- [x] Configure PAM
 
 # Networking 12%
 - [x] Configure networking and hostname resolution statically or dynamically
@@ -58,8 +58,8 @@
 - [x] Query and modify the behavior of system services at various operating modes
 - [x] Configure an HTTP server
 - [x] Configure a database server
-- [ ] Manage and configure Virtual Machines
-- [ ] Manage and configure containers
+- [x] Manage and configure Virtual Machines
+- [x] Manage and configure containers
 - [x] Query and modify the behavior of system services at various operating modes
 
 # Storage Management 13%
@@ -69,7 +69,7 @@
 - [x] Configure systems to mount file systems at or during boot
 - [x] Configure and manage swap space
 - [x] Create and manage RAID devices
-- [ ] Configure systems to mount file systems on demand
+- [x] Configure systems to mount file systems on demand
 - [x] Create, manage and diagnose advanced file system permissions
 - [x] Setup user and group disk quotas for filesystems
 - [x] Create and configure file systems
